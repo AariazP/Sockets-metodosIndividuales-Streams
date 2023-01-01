@@ -1,0 +1,12 @@
+/**
+*MÉTODO QUE ORDENA UNA LISTA, USANDO FUNCIONES LAMBDA Y EL 
+*ATRIBUTO POR EL QUE DESEA COMPARAR 
+*/
+public void ordenar() {
+	dataSource.sort(Comparator.comparing(Cliente::getId).reversed());
+}
+
+
+
+
+

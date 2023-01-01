@@ -1,0 +1,13 @@
+public class EscrituraException extends CRUDExceptions {
+
+	/**
+	 * CONSTRUCTOR DE LA EXCEPCIÓN DEFINE 
+	 *UN MENSAJE DE ERROR PARA CREAR OBJETOS
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public EscrituraException(String mensaje) {
+		super(mensaje);
+	}
+
+}

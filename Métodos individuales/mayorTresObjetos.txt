@@ -1,0 +1,19 @@
+/**
+	 * MÉTODO QUE RECIBE TRES OBJETOS Y DEVUELVE EL MAYOR
+	 * @param <T>
+	 * @param t1
+	 * @param t2
+	 * @param t3
+	 * @return
+	 */
+	public static <T extends Comparable<T>> T calcularMaximoTres(T t1, T t2, T t3) {
+		//MÁXIMO
+		T max = t1; 
+		//SE VERIFICA
+		if(t2.compareTo(max) > 0) {
+			max = t2; 
+		}else if(t3.compareTo(max)>0 ) {
+			max = t3; 
+		}
+		return max; 
+	}

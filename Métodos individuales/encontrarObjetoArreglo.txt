@@ -1,0 +1,10 @@
+/**
+	 * Metodo que verifica si existe un cliente en la lista clientes
+	 * @param obj
+	 * @return
+	 */
+	public boolean existeCliente(Cliente obj) {
+		
+		return clientes.stream().filter(e -> e.equals(obj)).findFirst().isPresent();
+		
+	}

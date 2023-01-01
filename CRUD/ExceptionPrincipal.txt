@@ -1,0 +1,12 @@
+public class CRUDExceptions extends Exception {
+
+	/**
+	 * Excepción principal de las clases del CRUD
+	 */
+	private static final long serialVersionUID = -5922297339106419458L;
+
+	public CRUDExceptions(String mensaje) {
+		
+		super(mensaje); 
+	}
+}
